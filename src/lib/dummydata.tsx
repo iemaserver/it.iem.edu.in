@@ -459,16 +459,22 @@ export const blog = [
     id: 2,
     title: "IEM-ICDC",
     desc: "3rd International Conference on Computational Intelligence, Data Science and Cloud Computing",
-    cover: "/images/blog/b2.webp",
+    cover: "/images/iem-icdc/icdc.png",
   },
   {
     id: 3,
+    title: "IEM HackOasis",
+    desc: "IEM HackOasis is the annual flagship hackathon of the Department of Information Technology, IEM.",
+    cover: "/images/BANNER_FINAL_2_page-0001.jpg",
+  },
+  {
+    id: 4,
     title: "Study Materials and Assignments",
     desc: "Comprehensive and curated academic resources to support in-depth learning and exam preparation.",
     cover: "/images/blog/b3.webp",
   },
   {
-    id: 4,
+    id: 5,
     title: "Students Achievement",
     desc: "Celebrating the outstanding accomplishments of IEM students in academics, research, and competitions.",
     cover: "/images/blog/b5.webp",
@@ -784,11 +790,11 @@ export const mentorsList = {
           [12023052004050, 50, "AUNGSHUSMITA DASGUPTA"],
           [12023052004066, 66, "TANVI JESMI"],
         ],
-          "3RD YEAR IT BATCH 22-26": [
-            [12022002004003, 2, "SHASHWAT KUMAR"],
-            [12022002004032, 21,"MD  ASIFULAMEEN"],
-            [12022002004054, 40, "DIPTYANIL  BASAK"],
-            [12022002004073, 59, "ABHIGYAN  KULAVI"]
+        "3RD YEAR IT BATCH 22-26": [
+          [12022002004003, 2, "SHASHWAT KUMAR"],
+          [12022002004032, 21, "MD  ASIFULAMEEN"],
+          [12022002004054, 40, "DIPTYANIL  BASAK"],
+          [12022002004073, 59, "ABHIGYAN  KULAVI"]
         ],
         "4TH YEAR IT BATCH 21-25": [
           [12021002003109, 2, "ARKODEEP BANIK"],
@@ -820,7 +826,7 @@ export const mentorsList = {
           [12022002004018, 12, "MRIDUL PATRA"],
           [12022002004026, 19, "DEBOJYOTI MONDAL"],
           [12022002004051, 38, "KOUNAK DATTA"],
-          [12022002004071, 57, "PRATYUSH  KUMAR TIWARY" ]
+          [12022002004071, 57, "PRATYUSH  KUMAR TIWARY"]
         ],
         "4TH YEAR IT BATCH 21-25": [
           [12021002004045, 22, "REBANTA BERA"],
@@ -834,7 +840,7 @@ export const mentorsList = {
     {
       id: "a-2",
       title: "Prof. Dr. Susovan Jana",
-      desg: "Assistant Head Of CSE(IoT)",
+      desg: "Associate Professor",
       linkedin: "https://www.linkedin.com/in/dr-susovan-jana-87381027/",
       gscholar:
         "https://scholar.google.co.in/citations?user=dk2zK8IAAAAJ&hl=en",
@@ -855,9 +861,9 @@ export const mentorsList = {
           [12022002004070, 56, "TANMOY SAHA"]
         ],
         "4TH YEAR IT BATCH 21-25": [
-            [12021002004021, 9, "SAGNIK AICH"],
-            [12021002004058, 30, "MUHIBBUR RAHMAN"],
-            [22022002004006, 52, "SOUMYAJIT KUNDU"]
+          [12021002004021, 9, "SAGNIK AICH"],
+          [12021002004058, 30, "MUHIBBUR RAHMAN"],
+          [22022002004006, 52, "SOUMYAJIT KUNDU"]
         ]
       },
     },
@@ -908,10 +914,10 @@ export const mentorsList = {
         "3RD YEAR IT BATCH 22-26": [
           [12022002004023, 16, "SHINJAN CHOWDHURY"],
           [12022002004048, 35, "SAYAN  BARDHAN"],
-          [12022002004055, 41, "SWAPNANIL  ADHIKARY" ],
+          [12022002004055, 41, "SWAPNANIL  ADHIKARY"],
           [12022002004068, 54, "SAYANTAN  PANDA"],
           [12022002018039, 64, "ADITYA KUMAR"],
-          [12022002018037, 65, "ANIMESH PALUI" ]
+          [12022002018037, 65, "ANIMESH PALUI"]
         ],
         "4TH YEAR IT BATCH 21-25": [
           [12021002004036, 18, "KOUSTAV MANDAL"],
@@ -962,8 +968,8 @@ export const mentorsList = {
         ],
         "3RD YEAR IT BATCH 22-26": [
           [12022002004024, 17, "SUMIT KUMAR"],
-          [12022002004049, 36, "ARSHIYA  NANDY"], 
-          [12022002004069, 55, "PINAKI  DUTTA" ]
+          [12022002004049, 36, "ARSHIYA  NANDY"],
+          [12022002004069, 55, "PINAKI  DUTTA"]
         ],
         "4TH YEAR IT BATCH 21-25": [
           [12021002004037, 19, "KINJAL KOLAY"],
@@ -979,7 +985,7 @@ export const mentorsList = {
     {
       id: "as-1",
       title: "Prof. Subhabrata Sengupta",
-      desg: "Assistant Head Of IT",
+      desg: "Assistant Professor",
       linkedin: "https://www.linkedin.com/in/subhabrata-sengupta-97308526b/",
       gscholar:
         "https://scholar.google.co.in/citations?hl=en&user=uctyfpEAAAAJ",
@@ -994,7 +1000,7 @@ export const mentorsList = {
         ],
         "3RD YEAR IT BATCH 22-26": [
           [12022002004009, 5, "SOMBIT BISWAS"],
-          [12022002004036, 24, "SHIVAM  KUMAR" ],
+          [12022002004036, 24, "SHIVAM  KUMAR"],
           [12022002004057, 43, "DEBARATI  NANDI"],
           [12022002004077, 62, "ARNAB  NAYAK"]
         ],
@@ -1011,7 +1017,7 @@ export const mentorsList = {
     {
       id: "as-2",
       title: "Prof. Kajari Sur",
-      desg: "Assistant Head Of CSE(IoTCSBT)",
+      desg: "Assistant Professor",
       linkedin: "https://www.linkedin.com/in/kajari-sur-98a97156/",
       gscholar: "Assistant Professor",
       img: "/images/teachers/kajori_sur.png",
@@ -1060,7 +1066,7 @@ export const mentorsList = {
         ],
         "3RD YEAR IT BATCH 22-26": [
           [12022002004016, 10, "ANARGHA  BHATTACHARJEE"],
-          [12022002004042, 29, "IPSITA  DUTTA"], 
+          [12022002004042, 29, "IPSITA  DUTTA"],
           [12022002004062, 48, "AHANA  MUKHERJEE"],
           [12022002004050, 37, "MD  TANZILIMAM"]
         ],
@@ -1123,17 +1129,17 @@ export const mentorsList = {
         "4TH YEAR IT BATCH 21-25": [
           [12021002004030, 14, "BISWAJIT ADHIKARY"],
           [12021002004064, 36, "SHUVRO BROTHA BISWAS"],
-          [22022002004011, 57, "ADARSH KUMAR"]          
+          [22022002004011, 57, "ADARSH KUMAR"]
         ]
       },
     },
     {
       id: "as-6",
       title: "Prof. Dr. Amit Kumar Mandal",
-      desg: "IT Professor",
-      linkedin: "IT Professor",
+      desg: "Assistant Professor",
+      linkedin: "",
       gscholar:
-        "IT Professor",
+        "",
       img: "/images/teachers/amit_kumar.png",
       mentees: {
         "3RD YEAR IT BATCH 22-26": [
@@ -1230,7 +1236,7 @@ export const mentorsList = {
           [12022002004021, 14, "PRIYA BHARTI"],
           [12022002004046, 33, "SAMPURNA  GHARA"],
           [12022002004064, 50, "SHESADRI MUKHERJEE"],
-          [12022002004066, 52, "KUNAL  BODHAK" ],
+          [12022002004066, 52, "KUNAL  BODHAK"],
           [12022002004074, 60, "SOURAJ  CHATTERJEE"]
         ],
         "4TH YEAR IT BATCH 21-25": [
@@ -1267,7 +1273,7 @@ export const mentorsList = {
 export const itfaculty = {
   hod: [
     {
-      id: "hod-1",
+      id: "main",
       title: "Prof. Dr. Moutushi Singh",
       desg: "Professor & Head of Department, Department of IT, CSE(IoT), CSE(IoTCSBT)",
       linkedin: "https://www.linkedin.com/in/dr-moutushi-singh-bb295b6a/",
@@ -1275,181 +1281,185 @@ export const itfaculty = {
       img: "/images/hod_img.jpg",
     },
   ],
-  faculty: [
+  prof: [
     {
-      id: "f-1",
-      title: "Prof. Dr. Amit Kumar Mandal",
-      desg: "IT Professor",
-      linkedin: "IT Professor",
-      gscholar: "IT Professor",
-      img: "/images/teachers/amit_kumar.png",
-    },
-    {
-      id: "f-2",
-      title: "Prof. Dr. Avipsita Chatterjee",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/dr-avipsita-chatterjee-630b35323/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=97vaiDQAAAAJ",
-      img: "/images/teachers/avipsita_chat.png",
-    },
-    {
-      id: "f-3",
-      title: "Prof. Dr. Baisakhi Das",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/dr-baisakhi-d-b42537172/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=IlSv4TkAAAAJ",
-      img: "/images/teachers/baishakhi_das.png",
-    },
-    {
-      id: "f-4",
-      title: "Prof. Dr. Koushik Dutta",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/dr-koushik-dutta-31825874/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=BJctPj8AAAAJ",
-      img: "/images/teachers/kaushik_dutta.png",
-    },
-    {
-      id: "f-5",
+      id: "p-1",
       title: "Prof. Dr. Sanchita Ghosh",
-      desg: "IT Professor",
+      desg: "Professor",
       linkedin: "https://www.linkedin.com/in/sanchita-ghosh-a093a41a4/",
       gscholar: "https://scholar.google.co.in/citations?hl=en&user=yiJnfpsAAAAJ",
       img: "/images/teachers/sanchita_ghosh.png",
     },
     {
-      id: "f-6",
-      title: "Prof. Dr. Soumadip Biswas",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/soumadipbiswas/",
-      gscholar: "https://scholar.google.co.in/citations?user=RQLNn8UAAAAJ",
-      img: "/images/teachers/soumadip_biswas.png",
+      id: "p-2",
+      title: "Prof. Dr. Baisakhi Das",
+      desg: "Professor",
+      linkedin: "https://www.linkedin.com/in/dr-baisakhi-d-b42537172/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=IlSv4TkAAAAJ",
+      img: "/images/teachers/baishakhi_das.png",
     },
+  ],
+  asso_prof: [
     {
-      id: "f-7",
-      title: "Prof. Dr. Susovan Jana",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/dr-susovan-jana-87381027/",
-      gscholar: "https://scholar.google.co.in/citations?user=dk2zK8IAAAAJ&hl=en",
-      img: "/images/teachers/susovan_jana.png",
-    },
-    {
-      id: "f-8",
-      title: "Prof. Avijit Bose",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/avijit-bose-29328977/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=FuTyJUgAAAAJ",
-      img: "/images/teachers/avijit_bose.png",
-    },
-    {
-      id: "f-9",
-      title: "Prof. Mohua Ghosh",
-      desg: "IT Professor",
-      linkedin: "Mohua Ghosh",
-      gscholar: "Mohua Ghosh",
-      img: "/images/teachers/mohua_ghosh.png",
-    },
-    {
-      id: "f-10",
-      title: "Prof. Kajari Sur",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/kajari-sur-98a97156/",
-      gscholar: "Assistant Professor",
-      img: "/images/teachers/kajori_sur.png",
-    },
-    {
-      id: "f-11",
-      title: "Prof. Partha Sarathi Paul",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/partha-sarathi-paul-58a929325/",
-      gscholar: "Mohua Ghosh",
-      img: "/images/teachers/partha_sarthi.png",
-    },
-    {
-      id: "f-12",
-      title: "Prof Pulak Baral",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/pulak-baral-249aaa27b/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=Gqpa3HUAAAAJ",
-      img: "/images/teachers/pulak_baral.png",
-    },
-    {
-      id: "f-13",
-      title: "Prof. Rabi Narayan Behera",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/rabi-behera-5b814154/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=j_FB-lYAAAAJ",
-      img: "/images/teachers/ravi_behera.png",
-    },
-    {
-      id: "f-14",
+      id: "a-1",
       title: "Prof. Dr. Rupayan Das",
-      desg: "IT Professor",
+      desg: "Associate Professor",
       linkedin: "https://www.linkedin.com/in/dr-rupayan-das-938ba78a/",
       gscholar: "https://scholar.google.co.in/citations?hl=en&user=xpDd_BUAAAAJ",
       img: "/images/teachers/rupayan_das.png",
     },
     {
-      id: "f-15",
-      title: "Prof. Shreyashi Dutta",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/shreyasi-datta-475b1599/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=UmOJcUEAAAAJ",
-      img: "/images/teachers/shreyashi_dutta.jpeg",
+      id: "a-2",
+      title: "Prof. Dr. Susovan Jana",
+      desg: "Program Incharge of CSE(IoT)",
+      linkedin: "https://www.linkedin.com/in/dr-susovan-jana-87381027/",
+      gscholar: "https://scholar.google.co.in/citations?user=dk2zK8IAAAAJ&hl=en",
+      img: "/images/teachers/susovan_jana.png",
     },
     {
-      id: "f-16",
-      title: "Prof. Dr. Soumyendu Sekhar Bandyopadhyay",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/dr-soumyendu-sekhar-bandyopadhyay-a5b004b4/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=GUIKqbEAAAAJ",
-      img: "/images/teachers/soumendu_shekhar.png",
+      id: "a-3",
+      title: "Prof. Dr. Soumadip Biswas",
+      desg: "Associate Professor",
+      linkedin: "https://www.linkedin.com/in/soumadipbiswas/",
+      gscholar: "https://scholar.google.co.in/citations?user=RQLNn8UAAAAJ",
+      img: "/images/teachers/soumadip_biswas.png",
     },
     {
-      id: "f-17",
-      title: "Prof. Subindu Saha",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/subindu-saha-506b697a/",
-      gscholar: "Assistant Professor",
-      img: "/images/teachers/subindu_saha.jpg",
+      id: "a-4",
+      title: "Prof. Dr. Koushik Dutta",
+      desg: "Associate Professor",
+      linkedin: "https://www.linkedin.com/in/dr-koushik-dutta-31825874/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=BJctPj8AAAAJ",
+      img: "/images/teachers/kaushik_dutta.png",
     },
     {
-      id: "f-18",
-      title: "Prof. Subhabrata Sengupta",
-      desg: "IT Professor",
-      linkedin: "https://www.linkedin.com/in/subhabrata-sengupta-97308526b/",
-      gscholar: "https://scholar.google.co.in/citations?hl=en&user=uctyfpEAAAAJ",
-      img: "/images/teachers/ssg.png",
-    },
-    {
-      id: "f-19",
+      id: "a-5",
       title: "Prof. Sudipta Bhuyan",
-      desg: "IT Professor",
+      desg: "Associate Professor",
       linkedin: "https://www.linkedin.com/in/sudipta-bhuyan-076764229/",
       gscholar: "https://scholar.google.co.in/citations?hl=en&user=VWV3V9kAAAAJ",
       img: "/images/teachers/sudipta_bhuiya.png",
     },
     {
-      id: "f-20",
+      id: "a-6",
+      title: "Prof. Dr. Soumyendu Sekhar Bandyopadhyay",
+      desg: "Associate Professor",
+      linkedin: "https://www.linkedin.com/in/dr-soumyendu-sekhar-bandyopadhyay-a5b004b4/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=GUIKqbEAAAAJ",
+      img: "/images/teachers/soumendu_shekhar.png",
+    },
+  ],
+  assi_prof: [
+    {
+      id: "as-1",
+      title: "Prof. Subhabrata Sengupta",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/subhabrata-sengupta-97308526b/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=uctyfpEAAAAJ",
+      img: "/images/teachers/ssg.png",
+    },
+    {
+      id: "as-2",
+      title: "Prof. Kajari Sur",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/kajari-sur-98a97156/",
+      gscholar: "",
+      img: "/images/teachers/kajori_sur.png",
+    },
+    {
+      id: "as-3",
+      title: "Prof. Avijit Bose",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/avijit-bose-29328977/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=FuTyJUgAAAAJ",
+      img: "/images/teachers/avijit_bose.png",
+    },
+    {
+      id: "as-4",
       title: "Prof. Swagatam Basu",
-      desg: "IT Professor",
+      desg: "Assistant Professor",
       linkedin: "https://www.linkedin.com/in/swagatam-basu-61875bb6/",
       gscholar: "https://scholar.google.co.in/citations?hl=en&user=ryUB9fMAAAAJ",
       img: "/images/teachers/swagatam_basu.png",
     },
     {
-      id: "f-21",
+      id: "as-5",
+      title: "Prof. Rabi Narayan Behera",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/rabi-behera-5b814154/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=j_FB-lYAAAAJ",
+      img: "/images/teachers/ravi_behera.png",
+    },
+    {
+      id: "as-6",
+      title: "Prof. Dr. Amit Kumar Mandal",
+      desg: "Assistant Professor",
+      linkedin: "",
+      gscholar: "",
+      img: "/images/teachers/amit_kumar.png",
+    },
+    {
+      id: "as-7",
+      title: "Prof. Dr. Avipsita Chatterjee",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/dr-avipsita-chatterjee-630b35323/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=97vaiDQAAAAJ",
+      img: "/images/teachers/avipsita_chat.png",
+    },
+    {
+      id: "as-8",
+      title: "Prof Pulak Baral",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/pulak-baral-249aaa27b/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=Gqpa3HUAAAAJ",
+      img: "/images/teachers/pulak_baral.png",
+    },
+    {
+      id: "as-9",
+      title: "Prof. Subindu Saha",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/subindu-saha-506b697a/",
+      gscholar: "",
+      img: "/images/teachers/subindu_saha.jpg",
+    },
+    {
+      id: "as-10",
+      title: "Prof. Partha Sarathi Paul",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/partha-sarathi-paul-58a929325/",
+      gscholar: "",
+      img: "/images/teachers/partha_sarthi.png",
+    },
+    {
+      id: "as-11",
+      title: "Prof. Mohua Ghosh",
+      desg: "Assistant Professor",
+      linkedin: "",
+      gscholar: "",
+      img: "/images/teachers/mohua_ghosh.png",
+    },
+    {
+      id: "as-12",
+      title: "Prof. Shreyashi Dutta",
+      desg: "Assistant Professor",
+      linkedin: "https://www.linkedin.com/in/shreyasi-datta-475b1599/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=UmOJcUEAAAAJ",
+      img: "/images/teachers/shreyashi_dutta.jpeg",
+    },
+    {
+      id: "as-13",
       title: "Prof. Partha Bhattacharya",
-      desg: "IT Professor",
-      linkedin: "Partha Bhattacharya",
-      gscholar: "Partha Bhattacharya",
+      desg: "Assistant Professor",
+      linkedin: "",
+      gscholar: "",
       img: "/images/teachers/partha_bhata.png",
     },
     {
-      id: "f-22",
+      id: "as-14",
       title: "Prof. Aditya Ray",
-      desg: "IT Professor",
-      linkedin: "Aditya Ray",
-      gscholar: "Aditya Ray",
+      desg: "Assistant Professor",
+      linkedin: "",
+      gscholar: "",
       img: "/images/teachers/aditya_ray.png",
     },
   ],
@@ -1459,236 +1469,235 @@ export const itfaculty = {
 export const notices = [
   {
     id: 1,
-    user: "IEMHACKS 3.0",
-    desc: `The world needs innovators, and this is your opportunity to make an impact. 
-We invite all students to participate in IEMHACKS 3.0, a 36-hour online hackathon designed 
-to challenge young developers and problem-solvers.
+    user: "IEM-ICDC",
+    desc: `IEM-ICDC 2026: International Conference on Computational Intelligence, Data Science and Cloud Computing 
+    is an endeavour in enticing interest for Computational Intelligence and Data Science applications in diverse domains. 
+    As the world is moving towards industry 4.0, Computational Intelligence, Data Science and Cloud Computing are becoming 
+    more and more relevant in our society in all possible ways.  
 
-🌟 **Why Participate?**  
-✅ Solve real-world challenges in Healthcare, EdTech, Social Issues, and more  
-✅ Compete for a prize pool worth ₹20,000  
-✅ Earn certificates and gain hands-on experience in innovation  
-✅ Collaborate with like-minded developers and showcase your skills  
-
-📢 We have already received 300+ registrations from different states and encourage all students to participate and give their best!  
-
-📅 **Event Duration:** 36 Hours (Online)`,
-    img: "/images/notice/iemhacks.jpeg",
-    link: "https://unstop.com/p/iemhacks-30-institute-of-engineering-and-mangement-kolkata-west-bengal-1400719",
+📅 **Date:** 16-18 March, 2026`,
+    img: "/images/notice/icdc_call_for_paper.jpeg",
+    link: "https://iemicdc.org/",
   },
   {
     id: 2,
-    user: "INNOVACION: PixelPioneer",
-    desc: `"Where every pixel tells a story, and every design shapes the future!"  
+    user: "Faculty Development Program",
+    desc: `The Faculty Development Program (FDP)
+on loT Security is designed to equip
+faculty members, researchers, and
+industry professionals with the necessary
+knowledge and skills to understand,
+analyze, and address the critical security
+challenges in the rapidly evolving Internet
+of Things (loT) ecosystem.
+As loT devices become deeply integrated
+into smart homes, industries, healthcare,
+transportation, and city infrastructure,
+securing these interconnected systems
+becomes a top priority. This FDP aims to
+bridge the gap between academia and
+emerging industrial needs by focusing on
+both
+foundational
+concepts
+and
+advanced technologies in loT security.
 
-🔥 **Are you ready to transform your creativity into digital masterpieces?**  
-Join **PixelPioneer** – the ultimate UI/UX designing battle where your imagination meets technology!  
-
-✨ **What’s in Store?**  
-✅ Live Design Challenges  
-✅ Real-World Design Problems  
-✅ Mentorship from Design Experts  
-✅ Exciting Prizes 🎁  
-✅ Certificate of Excellence  
-
-🎨 **"Design. Innovate. Dominate!"**  
-
-📍 **Venue:** IEM Management House  
-📞 **Contact:** Shubhangan Das – 8240542347`,
-    img: "/images/notice/innvacion_pp.jpeg",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSde9pRF9DVwNRRP42Q4zwYDHDWvBKOWMAiFR0Zch6QbK7d8Xg/viewform",
-  },
-  {
-    id: 3,
-    user: "INNOVACION: Hell in a Cell",
-    desc: `💀 **No Escape. No Mercy. Just Pure Carnage!** 💀  
-🚨 **The most loved event of IEM is back again!** 🚨  
-
-Get ready for the ultimate test of strength, strategy, and survival. Once that steel door slams shut, there’s no way out – only the strongest will stand tall!  
-
-⚡ **What’s in Store?**  
-✅ High-Stakes Battles Inside the Steel Cage 🏆  
-✅ Extreme Hardcore Matches & Unforgiving Action 💥  
-✅ Surprise Entrants & Unpredictable Showdowns 🎭  
-✅ Exciting Prizes Await the Ultimate Warriors! 🎁💰  
-
-⛓️ **Step Inside the Cell… If You Dare!** ⛓️  
-
-📅 **Date:** 7th – 9th March  
-📍 **Venue:** IEM Management House, Salt Lake, Kolkata  
-📞 **Contact:** Susovan Maji – 8637395788`,
-    img: "/images/notice/innovacion_hc.jpeg",
-    link: "https://docs.google.com/forms/d/e/1FAIpQLSdGuDMNyBAaTsNjS1BjjDHMdB4dw_gaiZmJjo58kCQqVAc_Xg/viewform",
-  },
-  {
-    id: 4,
-    user: "INNOVACION: VALIANTS",
-    desc: `🎮 **The Ultimate Valorant Showdown at Innovación '25!** 🚀  
-Get ready for the most electrifying Valorant tournament of the year!  
-Intense battles, strategic gameplay, and heart-pounding action await as the best teams clash for glory! 💥🎯`,
-    img: "/images/notice/innovacion_v.jpeg",
-    link: "https://forms.gle/1HR54VMKCspnsyxT6",
-  },
-  {
-    id: 5,
-    user: "IEM - TUG OF WAR",
-    desc: `💪🏆 **Victory in Unity!** 🏆💪  
-Our IEM **TUG OF WAR** team has just secured an unforgettable win 🥇 at the **MAGNUS Inter-College Tournament** held at BBIT & JIMS College! 🔥  
-
-Led by the incredible **Shreenath Choudhary**, this victory wasn’t just about raw strength—it was about teamwork, determination, and resilience. This win stands as a testament to hard work, dedication, and countless hours of practice.`,
-    img: "/images/notice/victory_tow.jpeg",
+📅 Date: 25th - 29th August, 2025`,
+    img: "/images/notice/fdp (2).jpeg",
     link: "",
   },
-  {
-    id: 6,
-    user: "IEM Republic Cup",
-    desc: `🏏 **IEM Republic Cup - Cricket Tournament** 🏆  
-IEM hosted the Cricket Tournament, **IEM Republic Cup**, on **25th and 26th January**, featuring 8 teams that showcased exceptional talent, teamwork, and determination.  
+  //   {
+  //     id: 3,
+  //     user: "INNOVACION: Hell in a Cell",
+  //     desc: `💀 **No Escape. No Mercy. Just Pure Carnage!** 💀  
+  // 🚨 **The most loved event of IEM is back again!** 🚨  
 
-After two days of intense competition, **Kolkata Legends** emerged as the champions! Their journey was a true testament to resilience, strategy, and unity, making them the well-deserved winners of the tournament.`,
-    img: "/images/notice/cricket_tournament.jpeg",
-    link: "",
-  },
-  {
-    id: 7,
-    user: "INNOVACION: BGMI Tournament",
-    desc: `💥 **If not NOW, then WHEN? Get Ready for the ULTIMATE Battle!** 💥  
+  // Get ready for the ultimate test of strength, strategy, and survival. Once that steel door slams shut, there’s no way out – only the strongest will stand tall!  
 
-🔥 **Solo & Team Modes Available!**  
-⚔️ **Join the Most Intense BGMI Showdown at Innovación 2025 and prove your dominance on the battlefield!** 🎮🔫  
+  // ⚡ **What’s in Store?**  
+  // ✅ High-Stakes Battles Inside the Steel Cage 🏆  
+  // ✅ Extreme Hardcore Matches & Unforgiving Action 💥  
+  // ✅ Surprise Entrants & Unpredictable Showdowns 🎭  
+  // ✅ Exciting Prizes Await the Ultimate Warriors! 🎁💰  
 
-💰 **LIMITED OFFER PRICING:**  
-🎟 Solo Entry: ₹169  
-🎟 Team Entry: ₹569  
+  // ⛓️ **Step Inside the Cell… If You Dare!** ⛓️  
 
-📅 **Event Dates:** 7th - 9th March 2025  
-⏳ **Offer Valid Till:** 15th February 2025  
-📍 **Venue:** Institute of Engineering & Management (IEM), Kolkata  
+  // 📅 **Date:** 7th – 9th March  
+  // 📍 **Venue:** IEM Management House, Salt Lake, Kolkata  
+  // 📞 **Contact:** Susovan Maji – 8637395788`,
+  //     img: "/images/notice/innovacion_hc.jpeg",
+  //     link: "https://docs.google.com/forms/d/e/1FAIpQLSdGuDMNyBAaTsNjS1BjjDHMdB4dw_gaiZmJjo58kCQqVAc_Xg/viewform",
+  //   },
+  //   {
+  //     id: 4,
+  //     user: "INNOVACION: VALIANTS",
+  //     desc: `🎮 **The Ultimate Valorant Showdown at Innovación '25!** 🚀  
+  // Get ready for the most electrifying Valorant tournament of the year!  
+  // Intense battles, strategic gameplay, and heart-pounding action await as the best teams clash for glory! 💥🎯`,
+  //     img: "/images/notice/innovacion_v.jpeg",
+  //     link: "https://forms.gle/1HR54VMKCspnsyxT6",
+  //   },
+  //   {
+  //     id: 5,
+  //     user: "IEM - TUG OF WAR",
+  //     desc: `💪🏆 **Victory in Unity!** 🏆💪  
+  // Our IEM **TUG OF WAR** team has just secured an unforgettable win 🥇 at the **MAGNUS Inter-College Tournament** held at BBIT & JIMS College! 🔥  
 
-🔹 **How to Register?**  
-✅ Scan the QR Code  
-✅ Contact:  
-📞 **Ahin - 90079 60851**  
-📞 **Prasenjit - 62030 90310**  
+  // Led by the incredible **Shreenath Choudhary**, this victory wasn’t just about raw strength—it was about teamwork, determination, and resilience. This win stands as a testament to hard work, dedication, and countless hours of practice.`,
+  //     img: "/images/notice/victory_tow.jpeg",
+  //     link: "",
+  //   },
+  //   {
+  //     id: 6,
+  //     user: "IEM Republic Cup",
+  //     desc: `🏏 **IEM Republic Cup - Cricket Tournament** 🏆  
+  // IEM hosted the Cricket Tournament, **IEM Republic Cup**, on **25th and 26th January**, featuring 8 teams that showcased exceptional talent, teamwork, and determination.  
 
-💥 **Why You Can’t Miss This?**  
-✅ Epic Battles & Clutch Moments  
-✅ Exclusive Tournament Arena  
-✅ Exciting Prizes & Surprises  
+  // After two days of intense competition, **Kolkata Legends** emerged as the champions! Their journey was a true testament to resilience, strategy, and unity, making them the well-deserved winners of the tournament.`,
+  //     img: "/images/notice/cricket_tournament.jpeg",
+  //     link: "",
+  //   },
+  //   {
+  //     id: 7,
+  //     user: "INNOVACION: BGMI Tournament",
+  //     desc: `💥 **If not NOW, then WHEN? Get Ready for the ULTIMATE Battle!** 💥  
 
-⚠️ **Spots are Filling Fast! Assemble Your Squad & Register Now!** ⚠️`,
-    img: "/images/notice/innovacion_bgmi.jpeg",
-    link: "",
-  },
-  {
-    id: 8,
-    user: "INNOVACION: Aperture 2025",
-    desc: `📸 **Stepping into the world of creativity and stories captured through the lens!** 🌟  
-Join **Aperture 2025**, an incredible photography event where art meets passion.  
+  // 🔥 **Solo & Team Modes Available!**  
+  // ⚔️ **Join the Most Intense BGMI Showdown at Innovación 2025 and prove your dominance on the battlefield!** 🎮🔫  
 
-Each frame tells a story, each click preserves a moment, and we can’t wait to see the world through the eyes of talented photographers.  
+  // 💰 **LIMITED OFFER PRICING:**  
+  // 🎟 Solo Entry: ₹169  
+  // 🎟 Team Entry: ₹569  
 
-This event is not just about pictures; it’s about perspectives, emotions, and the beauty of life itself. Get ready for an unforgettable experience! 🖤`,
-    img: "/images/notice/innovacion_ap.jpeg",
-    link: "https://www.iem-innovacion.com/",
-  },
+  // 📅 **Event Dates:** 7th - 9th March 2025  
+  // ⏳ **Offer Valid Till:** 15th February 2025  
+  // 📍 **Venue:** Institute of Engineering & Management (IEM), Kolkata  
+
+  // 🔹 **How to Register?**  
+  // ✅ Scan the QR Code  
+  // ✅ Contact:  
+  // 📞 **Ahin - 90079 60851**  
+  // 📞 **Prasenjit - 62030 90310**  
+
+  // 💥 **Why You Can’t Miss This?**  
+  // ✅ Epic Battles & Clutch Moments  
+  // ✅ Exclusive Tournament Arena  
+  // ✅ Exciting Prizes & Surprises  
+
+  // ⚠️ **Spots are Filling Fast! Assemble Your Squad & Register Now!** ⚠️`,
+  //     img: "/images/notice/innovacion_bgmi.jpeg",
+  //     link: "",
+  //   },
+  //   {
+  //     id: 8,
+  //     user: "INNOVACION: Aperture 2025",
+  //     desc: `📸 **Stepping into the world of creativity and stories captured through the lens!** 🌟  
+  // Join **Aperture 2025**, an incredible photography event where art meets passion.  
+
+  // Each frame tells a story, each click preserves a moment, and we can’t wait to see the world through the eyes of talented photographers.  
+
+  // This event is not just about pictures; it’s about perspectives, emotions, and the beauty of life itself. Get ready for an unforgettable experience! 🖤`,
+  //     img: "/images/notice/innovacion_ap.jpeg",
+  //     link: "https://www.iem-innovacion.com/",
+  //   },
 ];
 
 
 export const publications = {
-   faculty: {
-  conf : [
-    [{text: "Faculty: Conference publications", colspan:4}],
-    ["Sl. No.", "Topic of Publication", "Authors", "Conference Name"],
-    [1, "The Visual Assistant - Image-to-Speech Generator", "Amrit Raj; Sanchita Ghosh; Bharat Gupta", "7th International Conference for Convergence in Technology (I2CT), Pune, Maharashtra"],
-    [2, "A Novel Handoff Algorithm for 5G", "Prithwijit Mukherjee, Sanchita Ghosh, Anisha Halder Roy", "International Conference on Computers and Devices for Communication"],
-    [3, "Predictive Analysis for Financial Forecasting - Past and Present", "Partha Sarathi Paul, Dr. Rajendrani Mukherjee", "-"],
-    [4, "Secure Blockchain: Assessing Specific Security Threats", "Ananya, G., Priyanjali, D., Baisakhi, D., Abhishek, D.", "Lecture Notes on Data Engineering and Communications Technologies"],
-    [5, "A Unique Approach for Detection and Removal of Key Loggers", "Kedia, M.K., Das, B.", "Lecture Notes on Data Engineering and Communications Technologies"],
-    [6, "Deep Learning Approaches to Improve Effectiveness and Efficiency for Time Series Prediction", "Ali, D., Tiwari, N., Das, B., Bhanja, S., Das, A.", "Lecture Notes on Data Engineering and Communications Technologies"],
-    [7, "IoT-Blockchain Integration: The Way Ahead", "Ray, P.P., Bhargavi, Das, B., Das, A.", "Lecture Notes on Data Engineering and Communications Technologies"],
-    [8, "An Analysis of Energy Consumption of Blockchain Mining and Techniques to Overcome It", "Eshani, G., Rajdeep, D., Shubhankar, R., Baisakhi, D.", "Lecture Notes on Data Engineering and Communications Technologies"],
-    [9, "A Critical Review on Quantum Cryptography", "P. Roy, S. Sahoo, A.K. Mandal, I. Basu", "Journal of Quantum Computing"],
-    [10, "Offline Signature Verification System using Ensemble Learning", "Avijit Bose, Aniket Paul, Debanjan Bhattacharya, Dipannita Ghosh Sneha, Satyajit Chakrabarti", "AdComSys 2024"],
-    [11, "A Food Supply Chain for Internet of Health Things using Blockchain", "Puja Das, Amrita Haldar, Moutushi Singh, and Deepsubhra Guha Roy", "ICNSBT 2023"],
-    [12, "A Blockchain-Based Secure Approach to Access Genomic Data using Smart Contracts", "Puja Das, Moutushi Singh, Kajari Sur", "DoSIER 2023"],
-    [13, "An Innovative Deep-Learning Approach for Classifying Ayurvedic Medicinal Plants", "Puja Das, Rakhi Bharadwaj, Moutushi Singh", "International Conference on Science of Rudraksh-2023"],
-    [14, "Early Prediction of Cataract using Convolutional Neural Network", "Shuvam Chakraborty, Susovan Jana", "IEEE Devices for Integrated Circuit (DevIC), 2023"],
-    [15, "An Integrated Framework for Smart Monitoring of Orange Orchard", "Shuvam Chakraborty, Susovan Jana", "7th International Conference on Electronics, Materials Engineering & Nano-Technology (IEMENTech) - IEMENTech2023"],
-    [16, "A Secure Text Steganography Using Randomized Mathematical Functions and LSB", "Sakyojit Banerjee, Samanawaya Datta, Dipanjan Ghosh, Susovan Jana", "7th International Conference on Electronics, Materials Engineering & Nano-Technology (IEMENTech) - IEMENTech2024"],
-    [17, "The Future of IoT and IoT Authentication", "Kajari Sur, Pallab Maity, Indranil Mukhopadhyay", "IEM ECON 2023"],
-    [18, "Pose, Expression, Illumination Invariant 3D Face Recognition based on Transfer Learning", "Koushik Dutta, Vishesh Mohanty, Animesh Dutta, Aritra Biswas, Rohan Sutradhar, Prathama Sarkar, Ondrej Krejcar, and Debotosh Bhattacharjee", "2nd International Conference on Data, Electronics and Computing (ICDEC-2023)"],
-    [19, "Prediction of S-Palmitoylation Sites in the Male/Female Mouse using Protein Language Model", "Tapas Chakroborty, Anirban Das, Soumyendu Sekhar Bandyopadhyay, Anup Kumar Halder, Jakub Wlodarczyk, and Subhadip Basu", "4th International Conference on Frontiers in Computing and Systems (COMSYS-2023)"],
-  ],
+  faculty: {
+    conf: [
+      [{ text: "Faculty: Conference publications", colspan: 4 }],
+      ["Sl. No.", "Topic of Publication", "Authors", "Conference Name"],
+      [1, "The Visual Assistant - Image-to-Speech Generator", "Amrit Raj; Sanchita Ghosh; Bharat Gupta", "7th International Conference for Convergence in Technology (I2CT), Pune, Maharashtra"],
+      [2, "A Novel Handoff Algorithm for 5G", "Prithwijit Mukherjee, Sanchita Ghosh, Anisha Halder Roy", "International Conference on Computers and Devices for Communication"],
+      [3, "Predictive Analysis for Financial Forecasting - Past and Present", "Partha Sarathi Paul, Dr. Rajendrani Mukherjee", "-"],
+      [4, "Secure Blockchain: Assessing Specific Security Threats", "Ananya, G., Priyanjali, D., Baisakhi, D., Abhishek, D.", "Lecture Notes on Data Engineering and Communications Technologies"],
+      [5, "A Unique Approach for Detection and Removal of Key Loggers", "Kedia, M.K., Das, B.", "Lecture Notes on Data Engineering and Communications Technologies"],
+      [6, "Deep Learning Approaches to Improve Effectiveness and Efficiency for Time Series Prediction", "Ali, D., Tiwari, N., Das, B., Bhanja, S., Das, A.", "Lecture Notes on Data Engineering and Communications Technologies"],
+      [7, "IoT-Blockchain Integration: The Way Ahead", "Ray, P.P., Bhargavi, Das, B., Das, A.", "Lecture Notes on Data Engineering and Communications Technologies"],
+      [8, "An Analysis of Energy Consumption of Blockchain Mining and Techniques to Overcome It", "Eshani, G., Rajdeep, D., Shubhankar, R., Baisakhi, D.", "Lecture Notes on Data Engineering and Communications Technologies"],
+      [9, "A Critical Review on Quantum Cryptography", "P. Roy, S. Sahoo, A.K. Mandal, I. Basu", "Journal of Quantum Computing"],
+      [10, "Offline Signature Verification System using Ensemble Learning", "Avijit Bose, Aniket Paul, Debanjan Bhattacharya, Dipannita Ghosh Sneha, Satyajit Chakrabarti", "AdComSys 2024"],
+      [11, "A Food Supply Chain for Internet of Health Things using Blockchain", "Puja Das, Amrita Haldar, Moutushi Singh, and Deepsubhra Guha Roy", "ICNSBT 2023"],
+      [12, "A Blockchain-Based Secure Approach to Access Genomic Data using Smart Contracts", "Puja Das, Moutushi Singh, Kajari Sur", "DoSIER 2023"],
+      [13, "An Innovative Deep-Learning Approach for Classifying Ayurvedic Medicinal Plants", "Puja Das, Rakhi Bharadwaj, Moutushi Singh", "International Conference on Science of Rudraksh-2023"],
+      [14, "Early Prediction of Cataract using Convolutional Neural Network", "Shuvam Chakraborty, Susovan Jana", "IEEE Devices for Integrated Circuit (DevIC), 2023"],
+      [15, "An Integrated Framework for Smart Monitoring of Orange Orchard", "Shuvam Chakraborty, Susovan Jana", "7th International Conference on Electronics, Materials Engineering & Nano-Technology (IEMENTech) - IEMENTech2023"],
+      [16, "A Secure Text Steganography Using Randomized Mathematical Functions and LSB", "Sakyojit Banerjee, Samanawaya Datta, Dipanjan Ghosh, Susovan Jana", "7th International Conference on Electronics, Materials Engineering & Nano-Technology (IEMENTech) - IEMENTech2024"],
+      [17, "The Future of IoT and IoT Authentication", "Kajari Sur, Pallab Maity, Indranil Mukhopadhyay", "IEM ECON 2023"],
+      [18, "Pose, Expression, Illumination Invariant 3D Face Recognition based on Transfer Learning", "Koushik Dutta, Vishesh Mohanty, Animesh Dutta, Aritra Biswas, Rohan Sutradhar, Prathama Sarkar, Ondrej Krejcar, and Debotosh Bhattacharjee", "2nd International Conference on Data, Electronics and Computing (ICDEC-2023)"],
+      [19, "Prediction of S-Palmitoylation Sites in the Male/Female Mouse using Protein Language Model", "Tapas Chakroborty, Anirban Das, Soumyendu Sekhar Bandyopadhyay, Anup Kumar Halder, Jakub Wlodarczyk, and Subhadip Basu", "4th International Conference on Frontiers in Computing and Systems (COMSYS-2023)"],
+    ],
 
-  journal: [
-    [{text: "Faculty: Journal Publications", colspan: 7}],
-    ["Sl. No.", "Topic of Publication", "Authors", "Journal Name", "Volume", "Pages", "Indexing"],
-    [1, "Robotics in Medical Domain: The Future of Surgery, Healthcare and Imaging", "Anisha Halder Roy, Sanchita Ghosh, Bharat Gupta", "Wireless Personal Communications", "132(4)", "2885-2903", "SCI, SCOPUS"],
-    [2, "Exploring Appropriate ERP Framework towards Indian Small and Medium Enterprises using Decision Tree", "Dr. Sanchita Ghosh, Avik Basu", "International Journal of Business Intelligence and Data Mining", "21", "4", "Scopus"],
-    [3, "An Integrated Framework for Quality Evaluation of Fruits and Vegetable Store Located in the Supermarket Under Utopian Environment", "Susovan Jana, Bijan Sarkar, Ranjan Parekh, Surajit Nath", "International Journal of Industrial Engineering: Theory, Applications, and Practice", "30", "51-66", "SCIE, SCOPUS"],
-    [4, "Efficient Data Mining Model for Question Retrieval and Question Analytics using Semantic Web Framework in Smart E-Learning Environment", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "International Journal of Emerging Technologies in Learning", "17", "4-17", "Scopus"],
-    [5, "Relevant Influence of Semantic Web Framework on Smart E-Learning Environment", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "International Journal of Emerging Technologies in Learning", "Vol. 16 Issue 17", "p177-190", "-"],
-    [6, "Accuracy Enhancement of Epileptic Seizure Detection: A Deep Learning Approach with Hardware Realization of STFT", "Sai Manohar Beeraka, Abhash Kumar, Mustafa Sameer, Sanchita Ghosh & Bharat Gupta", "Circuits, Systems, and Signal Processing", "41", "461–484", "SCI"],
-    [7, "An Innovative Approach of Selecting Cloud Provider through Service Level Agreements", "Aveek Basu, Dr. Sanchita Ghosh, Dr. Sraboni Dutta", "International Journal of Business Information Systems", "-", "-", "Scopus"],
-    [8, "Exploring Appropriate ERP Framework towards Indian Small and Medium Enterprises using Decision Tree", "Aveek Basu, Dr. Sanchita Ghosh, Dr. Sraboni Dutta", "International Journal of Business Intelligence and Data Mining", "-", "-", "Scopus"],
-    [9, "Analysing the Cloud Efficacy by Fuzzy Logic", "Aveek Basu, Dr. Sanchita Ghosh, Dr. Sraboni Dutta", "International Journal of Business Information Systems", "-", "-", "Scopus"],
-    [10, "MLWR-2PAKA: A Hybrid Module LearningWithRounding-Based Authenticated Key Agreement Protocol for Two-Party Communication", "Swagatam Basu, Kübra Seyhan, SK Hafizul Islam, Sedat Akleylek", "IEEE Systems Journal (Early Access)", "-", "6093-6103", "IEEE, SCOPUS"],
-    [11, "Collaborative Data Gathering and Recharging using Multiple Mobile Vehicles in Wireless Rechargeable Sensor Network", "Rupayan Das, Dinesh Dash", "International Journal of Communication Systems", "-", "1-26", "SCIE, SCOPUS"],
-    [12, "Integral Cryptanalysis: A New Key Determination Technique for 3-phase Kuznyechik Encryption", "Rupayan Das et al.", "Engineering Research Express, IOP Science", "5", "1-11", "ESCI, SCOPUS"],
-    [13, "Joint On-demand Data Gathering and Recharging by Multiple Mobile Vehicles in Delay Sensitive WRSN using Variable Length GA", "Rupayan Das, Dinesh Dash", "Computer Communication, Elsevier", "204", "130-146", "SCIE, SCOPUS"],
-    [14, "Chromatographic Method Development for Simultaneous Determination of Serotonin, Melatonin, and L-tryptophan: Mass Transfer Modeling, Chromatographic Separation Factors, and Method Prediction by Artificial Neural Network", "Dipshikha Tamili, Susovan Jana, Paramita Bhattacharjee", "Journal of Chemometrics", "-", "-", "SCI"],
-    [15, "Exploring PBCA Rules for One and Two Fixed Points", "Baisakhi Das, Mamata Dalui, Mousumi Saha, Kasturi Ghosh, Nilanjana Das and Biplab K Sikdar", "Journal of Complex Systems", "-", "-", "ESCI, SCOPUS"],
-    [16, "SSKA: Secure Symmetric Encryption Exploiting Kuznyechik Algorithm for Trustworthy Communication", "Rupayan Das, Angshuman Khan, Rajeev Arya, Boykuziev Ilkhom, Abdurakhimov Bakhtiyor, Nuriddin Safoyev and Zarif Khudoykulov", "International Journal of System Assurance Engineering and Management, Springer", "-", "-", "ESCI, SCOPUS"],
-    [17, "A Proximal Policy Optimization with Curiosity Algorithm for Virtual Drone Navigation", "Rupayan Das, Angshuman Khan, Gunjan Paul", "Engineering Research Express, IOP Science", "-", "-", "Scopus"],
-    [18, "Block-A-City: An Agricultural Application Framework using Blockchain for Next Generation Smart Cities", "Puja Das, Moutushi Singh, Dimitrios A. Karras and Deepsubhra Guha Roy", "IETE Journal of Research", "-", "-", "Scopus"],
-    [19, "Blockchain for Healthcare using Deep Learning", "Puja Das, Moutushi Singh", "Journal of Multimedia Information System", "17(2)", "121-130", "SCI"],
-    [20, "Modelling of InAs Nanowire and MOSFET under Phonon Emission and Absorption by using NEGF Formalism", "Kaushik Mazumdar, Subindu Saha, Sk Rejuan Ali", "Superlattices and Microstructures", "150", "106758", "-"],
-    [21, "FuzzyPPI: Large-Scale Interaction of Human Proteome at Fuzzy Semantic Space", "Anup Kumar Halder, Soumyendu Sekhar Bandyopadhyay, Witold Jedrzejewski, Subhadip Basu, Jacek Sroka", "IEEE Transactions on Big Data (IF: 7.2)", "-", "1-12", "-"],
-  ]
+    journal: [
+      [{ text: "Faculty: Journal Publications", colspan: 7 }],
+      ["Sl. No.", "Topic of Publication", "Authors", "Journal Name", "Volume", "Pages", "Indexing"],
+      [1, "Robotics in Medical Domain: The Future of Surgery, Healthcare and Imaging", "Anisha Halder Roy, Sanchita Ghosh, Bharat Gupta", "Wireless Personal Communications", "132(4)", "2885-2903", "SCI, SCOPUS"],
+      [2, "Exploring Appropriate ERP Framework towards Indian Small and Medium Enterprises using Decision Tree", "Dr. Sanchita Ghosh, Avik Basu", "International Journal of Business Intelligence and Data Mining", "21", "4", "Scopus"],
+      [3, "An Integrated Framework for Quality Evaluation of Fruits and Vegetable Store Located in the Supermarket Under Utopian Environment", "Susovan Jana, Bijan Sarkar, Ranjan Parekh, Surajit Nath", "International Journal of Industrial Engineering: Theory, Applications, and Practice", "30", "51-66", "SCIE, SCOPUS"],
+      [4, "Efficient Data Mining Model for Question Retrieval and Question Analytics using Semantic Web Framework in Smart E-Learning Environment", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "International Journal of Emerging Technologies in Learning", "17", "4-17", "Scopus"],
+      [5, "Relevant Influence of Semantic Web Framework on Smart E-Learning Environment", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "International Journal of Emerging Technologies in Learning", "Vol. 16 Issue 17", "p177-190", "-"],
+      [6, "Accuracy Enhancement of Epileptic Seizure Detection: A Deep Learning Approach with Hardware Realization of STFT", "Sai Manohar Beeraka, Abhash Kumar, Mustafa Sameer, Sanchita Ghosh & Bharat Gupta", "Circuits, Systems, and Signal Processing", "41", "461–484", "SCI"],
+      [7, "An Innovative Approach of Selecting Cloud Provider through Service Level Agreements", "Aveek Basu, Dr. Sanchita Ghosh, Dr. Sraboni Dutta", "International Journal of Business Information Systems", "-", "-", "Scopus"],
+      [8, "Exploring Appropriate ERP Framework towards Indian Small and Medium Enterprises using Decision Tree", "Aveek Basu, Dr. Sanchita Ghosh, Dr. Sraboni Dutta", "International Journal of Business Intelligence and Data Mining", "-", "-", "Scopus"],
+      [9, "Analysing the Cloud Efficacy by Fuzzy Logic", "Aveek Basu, Dr. Sanchita Ghosh, Dr. Sraboni Dutta", "International Journal of Business Information Systems", "-", "-", "Scopus"],
+      [10, "MLWR-2PAKA: A Hybrid Module LearningWithRounding-Based Authenticated Key Agreement Protocol for Two-Party Communication", "Swagatam Basu, Kübra Seyhan, SK Hafizul Islam, Sedat Akleylek", "IEEE Systems Journal (Early Access)", "-", "6093-6103", "IEEE, SCOPUS"],
+      [11, "Collaborative Data Gathering and Recharging using Multiple Mobile Vehicles in Wireless Rechargeable Sensor Network", "Rupayan Das, Dinesh Dash", "International Journal of Communication Systems", "-", "1-26", "SCIE, SCOPUS"],
+      [12, "Integral Cryptanalysis: A New Key Determination Technique for 3-phase Kuznyechik Encryption", "Rupayan Das et al.", "Engineering Research Express, IOP Science", "5", "1-11", "ESCI, SCOPUS"],
+      [13, "Joint On-demand Data Gathering and Recharging by Multiple Mobile Vehicles in Delay Sensitive WRSN using Variable Length GA", "Rupayan Das, Dinesh Dash", "Computer Communication, Elsevier", "204", "130-146", "SCIE, SCOPUS"],
+      [14, "Chromatographic Method Development for Simultaneous Determination of Serotonin, Melatonin, and L-tryptophan: Mass Transfer Modeling, Chromatographic Separation Factors, and Method Prediction by Artificial Neural Network", "Dipshikha Tamili, Susovan Jana, Paramita Bhattacharjee", "Journal of Chemometrics", "-", "-", "SCI"],
+      [15, "Exploring PBCA Rules for One and Two Fixed Points", "Baisakhi Das, Mamata Dalui, Mousumi Saha, Kasturi Ghosh, Nilanjana Das and Biplab K Sikdar", "Journal of Complex Systems", "-", "-", "ESCI, SCOPUS"],
+      [16, "SSKA: Secure Symmetric Encryption Exploiting Kuznyechik Algorithm for Trustworthy Communication", "Rupayan Das, Angshuman Khan, Rajeev Arya, Boykuziev Ilkhom, Abdurakhimov Bakhtiyor, Nuriddin Safoyev and Zarif Khudoykulov", "International Journal of System Assurance Engineering and Management, Springer", "-", "-", "ESCI, SCOPUS"],
+      [17, "A Proximal Policy Optimization with Curiosity Algorithm for Virtual Drone Navigation", "Rupayan Das, Angshuman Khan, Gunjan Paul", "Engineering Research Express, IOP Science", "-", "-", "Scopus"],
+      [18, "Block-A-City: An Agricultural Application Framework using Blockchain for Next Generation Smart Cities", "Puja Das, Moutushi Singh, Dimitrios A. Karras and Deepsubhra Guha Roy", "IETE Journal of Research", "-", "-", "Scopus"],
+      [19, "Blockchain for Healthcare using Deep Learning", "Puja Das, Moutushi Singh", "Journal of Multimedia Information System", "17(2)", "121-130", "SCI"],
+      [20, "Modelling of InAs Nanowire and MOSFET under Phonon Emission and Absorption by using NEGF Formalism", "Kaushik Mazumdar, Subindu Saha, Sk Rejuan Ali", "Superlattices and Microstructures", "150", "106758", "-"],
+      [21, "FuzzyPPI: Large-Scale Interaction of Human Proteome at Fuzzy Semantic Space", "Anup Kumar Halder, Soumyendu Sekhar Bandyopadhyay, Witold Jedrzejewski, Subhadip Basu, Jacek Sroka", "IEEE Transactions on Big Data (IF: 7.2)", "-", "1-12", "-"],
+    ]
   },
-  students : {
-  conf: [
-    [{text: "Students: Conference Publications", colspan: 4}],
-    ["Sl. No.", "Topic of Publication", "Authors", "Conference Name"],
-    [1, "Early Prediction of Cataract using Convolutional Neural Network", "Shuvam Chakraborty, Susovan Jana", "DevIC 2023"],
-    [2, "An Integrated Framework for Smart Monitoring of Orange Orchard", "Shuvam Chakraborty, Susovan Jana", "IEMENTech2023"],
-    [3, "A Secure Text Steganography Using Randomized Mathematical Functions and LSB", "Sakyojit Banerjee, Samanawaya Datta, Dipanjan Ghosh, Susovan Jana", "IEMENTech2023"],
-    [4, "A Secure Softwarized Blockchain-based Federated Health Alliance for Next Generation IoT Networks", "Puja Das, Moutushi Singh and Deepsubhra Guha Roy", "IEEE Globecom Workshops (GC Wkshps)"],
-    [5, "A Food Supply Chain for Internet of Health Things using Blockchain", "Puja Das, Amrita Haldar, Moutushi Singh, and Deepsubhra Guha Roy", "ICNSBT 2023"],
-    [6, "A blockchain-based secure approach to access genomic data using smart contracts", "Puja Das, Moutushi Singh, Kajari Sur", "DoSIER 2023"],
-    [7, "An Innovative Deep-Learning approach for classifying Ayurvedic Medicinal", "Puja Das, Rakhi Bharadwaj, Moutushi Singh", "International Conference on Science of Rudraksh-2023"],
-    [8, "The Visual Assistant - Image-to-Speech Generator", "Amrit Raj, Sanchita Ghosh, Bharat Gupta", "2023 IEEE 3rd International Conference on Sustainable Energy and Future Electric Transportation (SEFET)"]
-  ],
-  journal: [
-    [{text: "Students: Journal Publications", colspan: 6}],
-    ["Sl. No.", "Topic of Publication", "Authors", "Journal Name", "Volume", "Pages"],
-    [1, "Relevant Influence of Semantic Web Framework on Smart E-Learning Environment", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "International Journal of Emerging Technologies in Learning", "Vol. 16 Issue 17", "177-190"],
-    [2, "Data Mining Model for Question Retrieval and Question Analytics using Semantic Web Framework in Smart E-Learning Environment", "Anish Banerjee, Subhabrata Sengupta", "International Journal of Emerging Technologies in Learning", "17", "4 - 17"]
-  ]
-}
+  students: {
+    conf: [
+      [{ text: "Students: Conference Publications", colspan: 4 }],
+      ["Sl. No.", "Topic of Publication", "Authors", "Conference Name"],
+      [1, "Early Prediction of Cataract using Convolutional Neural Network", "Shuvam Chakraborty, Susovan Jana", "DevIC 2023"],
+      [2, "An Integrated Framework for Smart Monitoring of Orange Orchard", "Shuvam Chakraborty, Susovan Jana", "IEMENTech2023"],
+      [3, "A Secure Text Steganography Using Randomized Mathematical Functions and LSB", "Sakyojit Banerjee, Samanawaya Datta, Dipanjan Ghosh, Susovan Jana", "IEMENTech2023"],
+      [4, "A Secure Softwarized Blockchain-based Federated Health Alliance for Next Generation IoT Networks", "Puja Das, Moutushi Singh and Deepsubhra Guha Roy", "IEEE Globecom Workshops (GC Wkshps)"],
+      [5, "A Food Supply Chain for Internet of Health Things using Blockchain", "Puja Das, Amrita Haldar, Moutushi Singh, and Deepsubhra Guha Roy", "ICNSBT 2023"],
+      [6, "A blockchain-based secure approach to access genomic data using smart contracts", "Puja Das, Moutushi Singh, Kajari Sur", "DoSIER 2023"],
+      [7, "An Innovative Deep-Learning approach for classifying Ayurvedic Medicinal", "Puja Das, Rakhi Bharadwaj, Moutushi Singh", "International Conference on Science of Rudraksh-2023"],
+      [8, "The Visual Assistant - Image-to-Speech Generator", "Amrit Raj, Sanchita Ghosh, Bharat Gupta", "2023 IEEE 3rd International Conference on Sustainable Energy and Future Electric Transportation (SEFET)"]
+    ],
+    journal: [
+      [{ text: "Students: Journal Publications", colspan: 6 }],
+      ["Sl. No.", "Topic of Publication", "Authors", "Journal Name", "Volume", "Pages"],
+      [1, "Relevant Influence of Semantic Web Framework on Smart E-Learning Environment", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "International Journal of Emerging Technologies in Learning", "Vol. 16 Issue 17", "177-190"],
+      [2, "Data Mining Model for Question Retrieval and Question Analytics using Semantic Web Framework in Smart E-Learning Environment", "Anish Banerjee, Subhabrata Sengupta", "International Journal of Emerging Technologies in Learning", "17", "4 - 17"]
+    ]
+  }
 }
 
 export const book_chapter = {
   faculty: [
-  [{text: "Faculty: Books Published", colspan: 4}],
-  ["Sl. No.","Book Name","Authors","Publisher"],
-  [1, "Augmented and Virtual Reality in Social Learning: Technological Impacts and Challenges", "Shreejita Mukherjee, Sanchita Ghosh", "DeGruyter, Germany"],
-  [2, "Emerging Technologies in Data Mining and Information Security - Book Chapter", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "Springer"],
-  [3, "Lecture Notes on Data Engineering and Communications Technologies - Book Chapter", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "Springer"],
-  [4, "Lecture Notes on Data Engineering and Communications Technologies 62, pp 501-511, Computer Science, Chapter 83", "Partha Sarathi Paul", "Springer"],
-  [5, "Computer Science, Chapter 83", "Partha Sarathi Paul", "Taylor and Francis"],
-  [6, "Blockchain-of-Things for Smart Disaster Management", "Puja Das, Moutushi Singh, and Deepsubhra Guha Roy", "Springer"],
-  [7, "IoT and Blockchain Enable Cognitive Framework for Secure Shared Business Transaction Services in a Smart City", "Puja Das, Moutushi Singh", "CRC"],
-  [8, "Agri-Chain: A Blockchain-Empowered Smart Solution for Agricultural Industry", "Puja Das, Moutushi Singh, Chitra Jain, and Ansul", "-"]
+    [{ text: "Faculty: Books Published", colspan: 4 }],
+    ["Sl. No.", "Book Name", "Authors", "Publisher"],
+    [1, "Augmented and Virtual Reality in Social Learning: Technological Impacts and Challenges", "Shreejita Mukherjee, Sanchita Ghosh", "DeGruyter, Germany"],
+    [2, "Emerging Technologies in Data Mining and Information Security - Book Chapter", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "Springer"],
+    [3, "Lecture Notes on Data Engineering and Communications Technologies - Book Chapter", "Subhabrata Sengupta, Anish Banerjee, Satyajit Chakrabarti", "Springer"],
+    [4, "Lecture Notes on Data Engineering and Communications Technologies 62, pp 501-511, Computer Science, Chapter 83", "Partha Sarathi Paul", "Springer"],
+    [5, "Computer Science, Chapter 83", "Partha Sarathi Paul", "Taylor and Francis"],
+    [6, "Blockchain-of-Things for Smart Disaster Management", "Puja Das, Moutushi Singh, and Deepsubhra Guha Roy", "Springer"],
+    [7, "IoT and Blockchain Enable Cognitive Framework for Secure Shared Business Transaction Services in a Smart City", "Puja Das, Moutushi Singh", "CRC"],
+    [8, "Agri-Chain: A Blockchain-Empowered Smart Solution for Agricultural Industry", "Puja Das, Moutushi Singh, Chitra Jain, and Ansul", "-"]
   ],
-  students : [
-  [{text: "Students: Book Chapter Publications", colspan: 8}],
-  ["Sl. No.", "Name", "Title of the Book/Chapter Published", "National/International", "Year of Publication", "ISSN/ISBN No", "Name of the Publisher", "Write Scopus/UGC Care/Other"],
-  [1, "Shreejita Mukherjee, Sanchita Ghosh", "Augmented and Virtual Reality in Social Learning: Technological Impacts and Challenges", "International", "2023", "9783110981445", "DeGruyter, Germany", "Scopus (Grade A)"],
-  [2, "Puja Das, Moutushi Singh, and Deepsubhra Guha Roy", "Blockchain-of-Things for Smart Disaster Management", "International", "2023", "NA", "Springer", "Scopus (Grade A)"],
-  [3, "Puja Das, Moutushi Singh", "IoT and Blockchain Enable Cognitive Framework for Secure Shared Business Transaction Services in a Smart City", "International", "2023", "NA", "CRC", "Scopus (Grade A)"],
-  [4, "Puja Das, Moutushi Singh, Chitra Jain, and Ansul", "Agri-Chain: A Blockchain-Empowered Smart Solution for Agricultural Industry", "International", "2023", "NA", "Springer", "Scopus (Grade A)"]
+  students: [
+    [{ text: "Students: Book Chapter Publications", colspan: 8 }],
+    ["Sl. No.", "Name", "Title of the Book/Chapter Published", "National/International", "Year of Publication", "ISSN/ISBN No", "Name of the Publisher", "Write Scopus/UGC Care/Other"],
+    [1, "Shreejita Mukherjee, Sanchita Ghosh", "Augmented and Virtual Reality in Social Learning: Technological Impacts and Challenges", "International", "2023", "9783110981445", "DeGruyter, Germany", "Scopus (Grade A)"],
+    [2, "Puja Das, Moutushi Singh, and Deepsubhra Guha Roy", "Blockchain-of-Things for Smart Disaster Management", "International", "2023", "NA", "Springer", "Scopus (Grade A)"],
+    [3, "Puja Das, Moutushi Singh", "IoT and Blockchain Enable Cognitive Framework for Secure Shared Business Transaction Services in a Smart City", "International", "2023", "NA", "CRC", "Scopus (Grade A)"],
+    [4, "Puja Das, Moutushi Singh, Chitra Jain, and Ansul", "Agri-Chain: A Blockchain-Empowered Smart Solution for Agricultural Industry", "International", "2023", "NA", "Springer", "Scopus (Grade A)"]
   ]
 }
 

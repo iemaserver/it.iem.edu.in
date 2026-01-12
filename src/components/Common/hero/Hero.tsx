@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import Stack from '@/components/Components/Stack/Stack';
 import Heading from '../heading/Heading';
 import './Hero.css';
 import Carousel, { CarouselItem } from '@/components/Components/Carousel/Carousel';
@@ -15,10 +14,11 @@ type ImageItem = {
 
 export default function Hero() {
   const images: ImageItem[] = [
-    { id: 1, img: '/images/bg_1.jpg', title: 'IEM HACKOASIS 1.0' },
-    { id: 2, img: '/images/bg_2.JPG', title: 'IEM HACKOASIS 1.0' },
-    { id: 3, img: '/images/bg_3.JPG', title: 'IEM HACKOASIS 1.0' },
-    { id: 4, img: '/images/bg_4.JPG', title: 'IEM HACKOASIS 1.0' },
+    { id: 1, img: '/images/ericsson_visit.jpeg', title: 'Industrial Visit To Ericsson' },
+    { id: 2, img: '/images/webel_visit.jpeg', title: 'Industrial Visit To Webel' },
+    { id: 3, img: '/images/Chandan_karfa_talk (2).jpeg', title: 'Machine Learning in EDA by Dr. Chandan Karfa' },
+    { id: 4, img: '/images/bg_3.JPG', title: 'IEM HACKOASIS 1.0' },
+    { id: 5, img: '/images/bg_4.JPG', title: 'IEM HACKOASIS 1.0' },
   ];
 
   const carouselItems: CarouselItem[] = images.map((image) => ({
@@ -72,16 +72,18 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Section - Large: Stack | Medium/Small: Image Carousel */}
+          {/* Right Section - Large: Image Carousel | Medium/Small: Image Carousel */}
           <div className="w-full lg:w-1/2 flex justify-center sm:justify-end">
             {/* Stack on large screens */}
-            <div className="hidden lg:block w-full px-4 sm:px-0 mx-auto sm:ml-4 sm:mr-6 max-w-full sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700px]">
-              <Stack
-                randomRotation={true}
-                sensitivity={150}
-                sendToBackOnClick={false}
-                cardDimensions={{ width: 700, height: 500 }}
-                cardsData={images}
+            <div className="hidden lg:block w-full px-4 sm:px-0 mx-auto lg:px-2 sm:ml-4 sm:mr-6 max-w-full sm:max-w-[500px] md:max-w-[700px] lg:max-w-[1000px]">
+              <Carousel
+                items={carouselItems}
+                baseWidth={carouselWidth}
+                autoplay={true}
+                autoplayDelay={4000}
+                pauseOnHover={false}
+                loop={true}
+                round={false}
               />
             </div>
 

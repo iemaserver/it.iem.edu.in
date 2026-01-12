@@ -1,11 +1,14 @@
-import React from "react";
+'use client';
+
+import React from 'react';
 import { itfaculty } from "@/lib/dummydata";
 import "./faculty_gen.css";
 import Link from "next/link";
 import Image from "next/image";
 
+// --- Types ---
 interface FacultyMember {
-  id: string;
+  id: string | number;
   title: string;
   desg: string;
   img?: string;
@@ -14,38 +17,30 @@ interface FacultyMember {
 }
 
 interface FacultyGroup {
-  hod: FacultyMember[];
-  faculty: FacultyMember[];
+  hod?: FacultyMember[];
+  prof?: FacultyMember[];
+  asso_prof?: FacultyMember[];
+  assi_prof?: FacultyMember[];
+  faculty?: FacultyMember[]; // Fallback for legacy structure if needed
 }
 
-// Optional: list of color classes for variety
-const colorClasses = [
-  "group-color-1",
-  "group-color-2",
-  "group-color-3",
-  "group-color-4",
-  "group-color-5",
-];
-
-const getRandomColorClass = () => {
-  return colorClasses[Math.floor(Math.random() * colorClasses.length)];
-};
+// --- Components ---
 
 const FacultyNode: React.FC<{ faculty: FacultyMember }> = ({ faculty }) => {
   const isHOD = faculty.desg.toLowerCase().includes("head");
-  const colorClass = getRandomColorClass();
 
   return (
-    <div className={`faculty-card group ${isHOD ? "hod-card" : colorClass}`}>
+    <div className={`faculty-card group ${isHOD ? "hod-card" : ""}`}>
       <div className="faculty-card__img-container flex items-center justify-center gap-2 lg:gap-0 lg:relative">
         <Image
-          width={1700}
-          height={1700}
+          width={700}
+          height={700}
           src={faculty.img || "/default-profile.png"}
           alt={faculty.title}
           className="w-28 h-28 rounded-full border-4 border-[#7a2fe3] object-cover hover:scale-105 hover:rotate-1 transition"
         />
-        <div className="faculty-card__info absolute left-full mx-1  lg:opacity-0 lg:invisible lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:left-[110%] transition-all duration-300">
+        {/* Social Icons - Hover Effect */}
+        <div className="faculty-card__info absolute left-full mx-1 lg:opacity-0 lg:invisible lg:group-hover:opacity-100 lg:group-hover:visible lg:group-hover:left-[110%] transition-all duration-300">
           {faculty.linkedin && (
             <Link
               href={faculty.linkedin}
@@ -79,49 +74,98 @@ const FacultyNode: React.FC<{ faculty: FacultyMember }> = ({ faculty }) => {
 };
 
 const FacultyTree: React.FC<{ facultyData: FacultyGroup }> = ({ facultyData }) => {
-  if (!facultyData || !facultyData.hod) {
-    return <div>No faculty data available.</div>;
+  // Check if data exists
+  const hasData = facultyData && (
+    (facultyData.hod && facultyData.hod.length > 0) ||
+    (facultyData.prof && facultyData.prof.length > 0) ||
+    (facultyData.asso_prof && facultyData.asso_prof.length > 0) ||
+    (facultyData.assi_prof && facultyData.assi_prof.length > 0)
+  );
+
+  if (!hasData) {
+    return <div className="text-center text-gray-500">No faculty data available.</div>;
   }
 
   return (
-    <div className="faculty-tree" id="mentors-section">
-      {/* HOD */}
-      <div className="tree-node root flex justify-center mb-10">
-        {facultyData.hod.map((hod) => (
-          <div key={hod.id} className="tree-hod">
-            <FacultyNode faculty={hod} />
+    <div className="faculty-tree px-4 sm:px-6 md:px-8" id="faculty-section">
+      
+      {/* 1. Head of Department */}
+      {facultyData.hod && facultyData.hod.length > 0 && (
+        <div className="tree-group hod-group mb-8">
+          <h2 className="text-xl font-semibold text-center mt-4 text-[#7a2fe3]">
+            Head of Department
+          </h2>
+          <div className="tree-row flex flex-wrap justify-center gap-6">
+            {facultyData.hod.map((hod) => (
+              <div key={hod.id} className="tree-node">
+                <FacultyNode faculty={hod} />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      )}
 
-      {/* All Faculty */}
-      <div className="faculty-grid w-full flex flex-wrap justify-center gap-6 px-4">
-        {facultyData.faculty.map((member) => (
-          <div
-            key={member.id}
-            className="faculty-item w-full sm:w-[48%] md:w-[32%] lg:w-[23%] flex justify-center"
-          >
-            <FacultyNode faculty={member} />
+      {/* 2. Professors */}
+      {facultyData.prof && facultyData.prof.length > 0 && (
+        <div className="tree-group professor-group mb-8">
+          <h2 className="text-xl font-semibold text-center mt-4 text-[#2196f3]">
+            Professors
+          </h2>
+          <div className="tree-row flex flex-wrap justify-center gap-6">
+            {facultyData.prof.map((prof) => (
+              <div key={prof.id} className="tree-node">
+                <FacultyNode faculty={prof} />
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+        </div>
+      )}
+
+      {/* 3. Associate Professors */}
+      {facultyData.asso_prof && facultyData.asso_prof.length > 0 && (
+        <div className="tree-group associate-prof-group mb-8">
+          <h2 className="text-xl font-semibold text-center mt-4 text-[#4caf50]">
+            Associate Professors
+          </h2>
+          <div className="tree-row flex flex-wrap justify-center gap-6">
+            {facultyData.asso_prof.map((asso) => (
+              <div key={asso.id} className="tree-node">
+                <FacultyNode faculty={asso} />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* 4. Assistant Professors */}
+      {facultyData.assi_prof && facultyData.assi_prof.length > 0 && (
+        <div className="tree-group assistant-prof-group-1 mb-8">
+          <h2 className="text-xl font-semibold text-center mt-4 text-[#ff9800]">
+            Assistant Professors
+          </h2>
+          <div className="tree-row flex flex-wrap justify-center gap-6">
+            {facultyData.assi_prof.map((assi) => (
+              <div key={assi.id} className="tree-node">
+                <FacultyNode faculty={assi} />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
 
 export default function ListFaculty() {
-  const facultyData = itfaculty || {};
-
-  if (!facultyData.hod || !Array.isArray(facultyData.hod)) {
-    return <div>Loading faculty data...</div>;
-  }
+  // Use the itfaculty data imported from dummydata
+  const facultyData: FacultyGroup = itfaculty;
 
   return (
-    <div className="faculty-container" id="faculty-section">
-      <h1 className="faculty-header text-2xl md:text-3xl font-bold text-center mb-10 py-10">
+    <section className="faculty-container py-8 px-4 sm:px-6 lg:px-12">
+      <h1 className="faculty-header text-center text-3xl sm:text-4xl font-bold mb-12 py-10 text-[#7a2fe3]">
         IT Faculty List
       </h1>
       <FacultyTree facultyData={facultyData} />
-    </div>
+    </section>
   );
 }

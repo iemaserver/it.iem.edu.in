@@ -11,6 +11,7 @@ import './blog.css';
 import Heading from '../Common/heading/Heading';
 import DepartmentEvents from './DepartmentEvents';
 import Image from 'next/image';
+import HackOasis from './HackOasis';
 
 export default function Blogcard() {
     const [showPlacemants, setShowPlacements] = useState(false);
@@ -18,6 +19,7 @@ export default function Blogcard() {
     const [showStudMats, setShowStudMats] = useState(false);
     const [showStudAchieve, setShowStudAchieve] = useState(false);
     const [showDeptEvents, setShowDeptEvents] = useState(false);
+    const [showHackOasis, setShowHackOasis] = useState(false);
 
     const handlePlacementsClick = () => {
         setShowPlacements(true);
@@ -25,6 +27,7 @@ export default function Blogcard() {
         setShowStudAchieve(false);
         setShowStudMats(false);
         setShowDeptEvents(false);
+        setShowHackOasis(false);
         setTimeout(() => {
             document.getElementById("placement-section")?.scrollIntoView({ behavior: "smooth" });
         }, 200);
@@ -36,6 +39,7 @@ export default function Blogcard() {
         setShowStudAchieve(false);
         setShowStudMats(false);
         setShowDeptEvents(false);
+        setShowHackOasis(false);
         setTimeout(() => {
             document.getElementById("student-chapter-section")?.scrollIntoView({ behavior: "smooth" });
         }, 200);
@@ -47,6 +51,7 @@ export default function Blogcard() {
         setShowStudAchieve(false);
         setShowStudMats(true);
         setShowDeptEvents(false);
+        setShowHackOasis(false);
         setTimeout(() => {
             document.getElementById("materials-section")?.scrollIntoView({ behavior: "smooth" });
         }, 200);
@@ -58,6 +63,7 @@ export default function Blogcard() {
         setShowStudMats(false);
         setShowStudAchieve(true);
         setShowDeptEvents(false);
+        setShowHackOasis(false);
         setTimeout(() => {
             document.getElementById("achievement-section")?.scrollIntoView({ behavior: "smooth" });
         }, 200);
@@ -69,10 +75,23 @@ export default function Blogcard() {
         setShowStudMats(false);
         setShowStudAchieve(false);
         setShowDeptEvents(true);
+        setShowHackOasis(false);
         setTimeout(() => {
             document.getElementById("department-events-section")?.scrollIntoView({ behavior: "smooth" });
         }, 200);
     };
+
+    const handleHackOasisClick = () => {
+        setShowStuChap(false);
+        setShowPlacements(false);
+        setShowStudMats(false);
+        setShowStudAchieve(false);
+        setShowDeptEvents(false);
+        setShowHackOasis(true);
+        setTimeout(() => {
+            document.getElementById("hackoasis-section")?.scrollIntoView({ behavior: "smooth" });
+        }, 200);
+    }
 
     return (
         <div className="w-full bg-[#f5f7fa] pt-10">
@@ -94,6 +113,7 @@ export default function Blogcard() {
                             onClick={() => {
                                 if (val.title === 'Placements') handlePlacementsClick();
                                 if (val.title === 'IEM-ICDC') handleStuChapClick();
+                                if (val.title === 'IEM HackOasis') handleHackOasisClick();
                                 if (val.title === 'Study Materials and Assignments') handleStudMatsClick();
                                 if (val.title === 'Students Achievement') handleStudAchieveClick();
                                 if (val.title === 'Department Events') handleDeptEventsClick();
@@ -102,6 +122,7 @@ export default function Blogcard() {
                                 cursor:
                                     val.title === 'Placements' ||
                                         val.title === 'IEM-ICDC' ||
+                                        val.title === 'IEM HackOasis' ||
                                         val.title === 'Study Materials and Assignments' ||
                                         val.title === 'Students Achievement' ||
                                         val.title === 'Department Events'
@@ -125,6 +146,7 @@ export default function Blogcard() {
             {/* Conditional Section Renders */}
             {showPlacemants && <PlacementCard />}
             {showStuChap && <StudChapterCard />}
+            {showHackOasis && <HackOasis />}
             {showStudMats && <StudyMaterialsCard />}
             {showStudAchieve && <StudentAchieveCard />}
             {showDeptEvents && <DepartmentEvents />}
