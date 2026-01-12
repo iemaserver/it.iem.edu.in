@@ -28,17 +28,24 @@ export default function Hero() {
     image: image.img,
   }));
 
+  // Default start width
   const [carouselWidth, setCarouselWidth] = useState(360);
 
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
-      if (width >= 768) {
-        setCarouselWidth(500); // md+
+      
+      // Updated Logic: Reduced sizes for Large screens to match the text box
+      if (width >= 1280) {
+        setCarouselWidth(550); // XL: 550px matches the visual weight of the left box
+      } else if (width >= 1024) {
+        setCarouselWidth(450); // LG: 450px fits cleanly in the split layout
+      } else if (width >= 768) {
+        setCarouselWidth(450); // MD
       } else if (width >= 640) {
-        setCarouselWidth(420); // sm
+        setCarouselWidth(400); // SM
       } else {
-        setCarouselWidth(360); // base
+        setCarouselWidth(340); // Mobile
       }
     };
 
@@ -51,8 +58,9 @@ export default function Hero() {
     <section className="hero relative text-white overflow-hidden bg-cover bg-center bg-no-repeat flex items-center justify-center min-h-screen px-4 md:px-8">
       <div className="max-w-7xl w-full py-8 md:py-12 lg:pb-16 lg:pt-6 mx-auto">
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          {/* Left Section */}
-          <div className="desc_hero w-full lg:w-1/2 bg-white/10 backdrop-blur-md shadow-xl rounded-xl p-6 sm:p-8 transition-all hover:translate-y-[-5px]">
+          
+          {/* Left Section - Text */}
+          <div className="desc_hero w-full lg:w-1/2 bg-white/10 backdrop-blur-md shadow-xl rounded-xl p-6 sm:p-8 transition-all hover:translate-y-[-5px] z-10">
             <Heading
               subtitle="EXPLORE, LEARN, INNOVATE"
               title="Empowering Future IT Leaders"
@@ -63,7 +71,7 @@ export default function Hero() {
               and prepare you for the digital revolution.
             </p>
             <div className="mt-6 flex flex-col sm:flex-row gap-4 sm:justify-start">
-              <Link href="/sign-in" className="primary-btn">
+              <Link href="/land_students" className="primary-btn">
                 STUDENT&apos;S CORNER<i className="fa fa-long-arrow-alt-right ml-2" />
               </Link>
               <Link href="/about" className="secondary-btn">
@@ -72,33 +80,12 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Section - Large: Image Carousel | Medium/Small: Image Carousel */}
-          <div className="w-full lg:w-1/2 flex justify-center sm:justify-end">
-            {/* Stack on large screens */}
-            <div className="hidden lg:block w-full px-4 sm:px-0 mx-auto lg:px-2 sm:ml-4 sm:mr-6 max-w-full sm:max-w-[500px] md:max-w-[700px] lg:max-w-[1000px]">
-              <Carousel
-                items={carouselItems}
-                baseWidth={carouselWidth}
-                autoplay={true}
-                autoplayDelay={4000}
-                pauseOnHover={false}
-                loop={true}
-                round={false}
-              />
-            </div>
-
-            {/* Carousel on small/medium screens */}
-            {/* <div className="block lg:hidden w-full px-4 sm:px-0 mx-auto sm:ml-4 sm:mr-6 max-w-full sm:max-w-[500px]">
-              <img
-                src={images[currentImageIndex].img}
-                alt={`Slide ${currentImageIndex + 1}`}
-                className="w-full h-auto rounded-xl shadow-lg transition-all duration-4000"
-              />
-            </div> */}
-            <div
-              className="block lg:hidden w-full justify-center px-4 sm:px-6 md:px-8"
-            >
-              <div style={{ width: `${carouselWidth}px` }}>
+          {/* Right Section - Single Unified Carousel */}
+          <div className="w-full lg:w-1/2 flex flex-col justify-center items-center mt-8 lg:mt-0 relative z-0">
+             <div 
+                style={{ width: `${carouselWidth}px` }} 
+                className="transition-all duration-300 mx-auto"
+             >
                 <Carousel
                   items={carouselItems}
                   baseWidth={carouselWidth}
@@ -108,10 +95,9 @@ export default function Hero() {
                   loop={true}
                   round={false}
                 />
-              </div>
             </div>
-
           </div>
+
         </div>
       </div>
     </section>

@@ -9,7 +9,7 @@ export default function Header() {
   const [click, setClick] = useState(false)
 
   return (
-    <div className='text-white pb-2'>
+    <div className='text-white pb-2 relative z-50'>
       <Head />
       <header className="site-header ">
         <nav className="relative flex items-center justify-between md:px-8 px-2 py-2 h-[70px]">

@@ -108,30 +108,33 @@ const CarouselCard = ({
       } overflow-hidden cursor-grab active:cursor-grabbing`}
       style={{
         width: itemWidth,
-        height: round ? itemWidth : "100%",
+        height: round ? itemWidth : "auto",
         rotateY: rotateY,
         ...(round && { borderRadius: "50%" }),
       }}
       transition={transition}
     >
-      <div className={`${round ? "p-0 m-0" : "mb-0 p-2"}`}>
-        <Image
-          height={4000}
-          width={6000}
-          src={item.image}
-          alt={item.title}
-          className={`w-full object-cover ${
-            round
-              ? "h-full rounded-full"
-              : "rounded-[12px] h-[200px] sm:h-[250px] md:h-[300px]"
-          }`}
-        />
+      <div className={`${round ? "p-0 m-0" : "mb-0 p-2 w-full"}`}>
+        <div className={`relative w-full ${!round ? "aspect-[4/3]" : "h-full"}`}>
+            <Image
+            fill // Use fill for responsive container fitting
+            src={item.image}
+            alt={item.title}
+            className={`object-cover ${
+                round
+                ? "rounded-full"
+                : "rounded-[12px]"
+            }`}
+            />
+        </div>
       </div>
-      <div className="px-4 pt-2 pb-2">
-        <div className="mb-0.5 font-semibold text-base text-white truncate">
+      <div className="px-4 pt-1 pb-4 w-full">
+        <div className="mb-1 font-bold text-white whitespace-normal break-words leading-tight text-sm sm:text-base md:text-lg">
           {item.title}
         </div>
-        <p className="text-xs text-white line-clamp-2">{item.description}</p>
+        <p className="text-xs sm:text-sm text-gray-200 line-clamp-3 leading-relaxed">
+            {item.description}
+        </p>
       </div>
     </motion.div>
   );
