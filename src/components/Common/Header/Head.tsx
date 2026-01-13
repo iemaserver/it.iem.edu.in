@@ -16,8 +16,8 @@ export default function Head() {
               <Image width={150} height={120} src="/images/iem_logo.jpg" alt="iem_logo" />
             </div>
             <div className="tagline">
-              <h1 className="text-xl md:text-2xl">Department of Computer Science,</h1>
-              <h1 className="text-xl md:text-2xl">Program Information Technology</h1>
+              <h1 className="text-xl md:text-2xl">Department of</h1>
+              <h1 className="text-xl md:text-2xl">Information Technology</h1>
               <span className="text-sm md:text-base">
                 Institute of Engineering & Management, Kolkata
               </span>

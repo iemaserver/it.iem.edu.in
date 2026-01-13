@@ -17,8 +17,9 @@ export default function Hero() {
     { id: 1, img: '/images/ericsson_visit.jpeg', title: 'Industrial Visit To Ericsson' },
     { id: 2, img: '/images/webel_visit.jpeg', title: 'Industrial Visit To Webel' },
     { id: 3, img: '/images/Chandan_karfa_talk (2).jpeg', title: 'Machine Learning in EDA by Dr. Chandan Karfa' },
-    { id: 4, img: '/images/bg_3.JPG', title: 'IEM HACKOASIS 1.0' },
-    { id: 5, img: '/images/bg_4.JPG', title: 'IEM HACKOASIS 1.0' },
+    { id: 4, img: '/images/hackoasis2 (3).JPG', title: 'IEM HACKOASIS 2.0' },
+    { id: 5, img: '/images/bg_1.jpg', title: 'IEM HACKOASIS 1.0' },
+    
   ];
 
   const carouselItems: CarouselItem[] = images.map((image) => ({

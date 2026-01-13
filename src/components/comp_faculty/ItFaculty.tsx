@@ -7,6 +7,7 @@ import ListMentors from "./ListMentors";
 import ListFaculty from "./ListFaculty";
 import Link from "next/link";
 import Image from "next/image";
+import ClassTeachers from "./ClassTeachers";
 
 interface FacultyMember {
   id: string;
@@ -99,10 +100,12 @@ export default function ItFaculty() {
   const [selectedList, setSelectedList] = useState<string | null>(null);
   const [showMentors, setShowMentors] = useState(false);
   const [showFaculty, setShowFaculty] = useState(false);
+  const [showClassTeachers, setShowClassTeachers] = useState(false);
 
   const handleMentorList = () => {
     setShowMentors(true);
     setShowFaculty(false);
+    setShowClassTeachers(false);
     setSelectedList(facultylistselect[0]);
     setTimeout(() => {
       document.getElementById("mentors-section")?.scrollIntoView({ behavior: "smooth" });
@@ -112,9 +115,20 @@ export default function ItFaculty() {
   const handleFacultyList = () => {
     setShowFaculty(true);
     setShowMentors(false);
+    setShowClassTeachers(false);
     setSelectedList(facultylistselect[1]);
     setTimeout(() => {
       document.getElementById("faculty-section")?.scrollIntoView({ behavior: "smooth" });
+    }, 200);
+  };
+
+  const handleClassTeachersList = () => {
+    setShowClassTeachers(true);
+    setShowFaculty(false);
+    setShowMentors(false);
+    setSelectedList(facultylistselect[2]);
+    setTimeout(() => {
+      document.getElementById("class-teachers-section")?.scrollIntoView({ behavior: "smooth" });
     }, 200);
   };
 
@@ -123,7 +137,7 @@ export default function ItFaculty() {
   return (
     <div className="faculty-container py-20 bg-gray-50">
       <h1 className="faculty-header text-3xl md:text-4xl font-bold text-[#7a2fe3] text-center mb-4">
-        Program Information Technology
+        Department of Information Technology
       </h1>
 
       <FacultyTree facultyData={facultyData} />
@@ -150,11 +164,22 @@ export default function ItFaculty() {
         >
           IT FACULTY LIST
         </button>
+        <button
+          onClick={handleClassTeachersList}
+          className={`px-5 py-2 rounded-lg font-semibold shadow transition-all duration-200 border-2 ${
+            selectedList === facultylistselect[2]
+              ? "bg-[#7a2fe3] text-[#fff] border-[#7a2fe3]"
+              : "bg-[#fff] text-[#7a2fe3] border-[#7a2fe3]"
+          } hover:scale-105`}
+        >
+          CLASS TEACHERS LIST
+        </button>
       </div>
 
       <div className="mt-10">
         {showMentors && <ListMentors />}
         {showFaculty && <ListFaculty />}
+        {showClassTeachers && <ClassTeachers/>}
       </div>
     </div>
   );

@@ -56,7 +56,7 @@ export default function Footer() {
         <div className="max-w-screen-xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6">
           {/* Logo & Info */}
           <div className="box logo col-span-1 xl:col-span-2">
-            <h2 className="text-lg font-bold mb-1">Department of Computer Science,</h2>
+            <h2 className="text-lg font-bold mb-1">Department of,</h2>
             <h2 className="text-lg font-bold mb-1">Program Information Technology</h2>
             <span className="block text-sm text-purple-600">Institute of Engineering & Management, Kolkata</span>
             <p className="text-gray-600 mt-4 mb-4">

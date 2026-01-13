@@ -1334,7 +1334,7 @@ export const itfaculty = {
     },
     {
       id: "a-5",
-      title: "Prof. Sudipta Bhuyan",
+      title: "Prof. Dr. Sudipta Bhuyan",
       desg: "Associate Professor",
       linkedin: "https://www.linkedin.com/in/sudipta-bhuyan-076764229/",
       gscholar: "https://scholar.google.co.in/citations?hl=en&user=VWV3V9kAAAAJ",
@@ -1434,9 +1434,9 @@ export const itfaculty = {
       id: "as-11",
       title: "Prof. Mohua Ghosh",
       desg: "Assistant Professor",
-      linkedin: "",
-      gscholar: "",
-      img: "/images/teachers/mohua_ghosh.png",
+      linkedin: "https://www.linkedin.com/in/sudipta-bhuyan-076764229/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=VWV3V9kAAAAJ",
+      img: "/images/teachers/sudipta_bhuiya.png",
     },
     {
       id: "as-12",
@@ -1464,6 +1464,35 @@ export const itfaculty = {
     },
   ],
 };
+
+export const classTeachers = {
+  teachers: [
+    {
+      id: 1,
+      name: "Prof. Swagatam Basu",
+      batch: "2ND YEAR",
+      linkedin: "https://www.linkedin.com/in/swagatam-basu-61875bb6/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=ryUB9fMAAAAJ",
+      img: "/images/teachers/swagatam_basu.png",
+    },
+    {
+      id: 2,
+      name: "Prof. Subindu Saha",
+      batch: "3RD YEAR",
+      linkedin: "https://www.linkedin.com/in/subindu-saha-506b697a/",
+      gscholar: "",
+      img: "/images/teachers/subindu_saha.jpg",
+    },
+    {
+      id: 3,
+      name: "Prof. Dr. Sudipta Bhuyan",
+      batch: "4TH YEAR",
+      linkedin: "https://www.linkedin.com/in/sudipta-bhuyan-076764229/",
+      gscholar: "https://scholar.google.co.in/citations?hl=en&user=VWV3V9kAAAAJ",
+      img: "/images/teachers/sudipta_bhuiya.png",
+    }
+  ]
+}
 
 
 export const notices = [
