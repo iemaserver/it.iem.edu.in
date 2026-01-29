@@ -1436,7 +1436,7 @@ export const itfaculty = {
       desg: "Assistant Professor",
       linkedin: "https://www.linkedin.com/in/sudipta-bhuyan-076764229/",
       gscholar: "https://scholar.google.co.in/citations?hl=en&user=VWV3V9kAAAAJ",
-      img: "/images/teachers/sudipta_bhuiya.png",
+      img: "/images/teachers/mohua_ghosh.png",
     },
     {
       id: "as-12",
