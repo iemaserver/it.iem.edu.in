@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
   distDir: "dist",
 
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",     // 👈 required
